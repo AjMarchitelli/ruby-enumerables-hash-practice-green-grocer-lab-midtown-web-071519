@@ -1,4 +1,4 @@
-def consolidate_cart(item)
+def consolidate_cart(array)
   final = Hash.new 0 
   count = :count
 item.each do |hash|
