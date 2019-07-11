@@ -8,7 +8,7 @@ def consolidate_cart(cart_array)
       cart_hash[fruit][:count] += 1
     end
   end
-  return organized_cart
+  return cart_hash
 end
 
 def apply_coupons(cart, coupons)
